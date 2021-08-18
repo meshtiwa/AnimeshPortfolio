@@ -1,6 +1,7 @@
+<script type="module">
 import './style.css'
 
-import * as THREE from 'three';
+import * as THREE from 'https://cdn.skypack.dev/three@0.131.3';
 
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
@@ -117,4 +118,6 @@ function animate(){
 }
 
 animate();
+
+</script>
 
